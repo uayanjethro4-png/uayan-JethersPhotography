@@ -1,0 +1,171 @@
+/* Color Palette:
+   Matte Black: #0B1320
+   Slate Grey:  #475569
+   Off-White:   #F8FAFC
+   Accent Blue: #2563EB
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0B1320;
+  color: #F8FAFC;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navigation bar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #0B1320;
+  border-bottom: 1px solid #475569;
+  z-index: 100;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 16px 20px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #F8FAFC;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.logo-mark {
+  color: #2563EB;
+  margin-right: 6px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.nav-links a {
+  color: #F8FAFC;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #2563EB;
+}
+
+/* main text sa page */
+.hero {
+  min-height: 400px;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #F8FAFC;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  margin: 16px 0 28px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #F8FAFC;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #2563EB;
+  color: #F8FAFC;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #475569;
+}
+
+/* About Section */
+.intro-section {
+  padding: 80px 0;
+  background-color: #F8FAFC;
+  color: #0B1320;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.intro-label {
+  margin: 0 0 16px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #2563EB;
+}
+
+.intro-section h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.intro-copy {
+  max-width: 580px;
+  margin: 20px auto 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #475569;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+  text-align: left;
+}
+
+.about-card {
+  padding: 28px;
+  border-top: 3px solid #2563EB;
+  background-color: #F8FAFC;
+}
+
+.about-card h3 {
+  margin: 0 0 12px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.about-card p {
+  margin: 0;
+  color: #475569;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
